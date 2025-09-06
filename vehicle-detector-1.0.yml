@@ -1,0 +1,59 @@
+---
+RecipeFormatVersion: '2020-01-25'
+ComponentName: com.example.VehicleDetector
+ComponentVersion: '1.0.0'
+ComponentDescription: Detector de veículos YOLOv8 para AWS Greengrass V2
+ComponentPublisher: SeuNome
+ComponentDependencies:
+  aws.greengrass.Nucleus:
+    VersionRequirement: '>=2.0.0'
+    DependencyType: HARD
+
+# Configuração padrão do componente
+ComponentConfiguration:
+  DefaultConfiguration:
+    source: "road_video.mp4"
+    topic: "edge/vehicles/detections"
+    confidence: 0.5
+    labels: "car,truck,bus,motorbike"
+
+# Políticas de IoT para publicação no MQTT
+Policies:
+  - PolicyName: VehicleDetectorPublishPolicy
+    PolicyDocument:
+      Version: "2012-10-17"
+      Statement:
+        - Effect: Allow
+          Action: "iot:Publish"
+          Resource: "arn:aws:iot:us-east-1:361134873150:topic/edge/vehicles/*"
+
+# Manifestos de plataforma
+Manifests:
+  - Platform:
+      os: linux
+    Artifacts:
+      - URI: "s3://gg-gg-artifacts-22274/components/vehicle-detector/1.0.0/main.py"
+      - URI: "s3://gg-gg-artifacts-22274/components/vehicle-detector/1.0.0/models/yolov8n.pt"
+      - URI: "s3://gg-gg-artifacts-22274/components/vehicle-detector/1.0.0/road_video.mp4"
+
+    Lifecycle:
+      Install:
+        RequiresPrivilege: true
+        Script: |
+          set -ex
+          python3 -m venv {work:path}/venv
+          . {work:path}/venv/bin/activate
+          pip install --upgrade pip
+          pip install -r {artifacts:path}/requirements.txt
+          mkdir -p {work:path}/cache
+      Run:
+        RequiresPrivilege: true
+        Script: |
+          set -ex
+          . {work:path}/venv/bin/activate
+          python3 {artifacts:path}/main.py \
+            --source "{artifacts:path}/road_video.mp4" \
+            --model "{artifacts:path}/models/yolov8n.pt" \
+            --topic "{configuration:/topic}" \
+            --conf {configuration:/confidence} \
+            --labels "{configuration:/labels}"
