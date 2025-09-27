@@ -1,0 +1,1156 @@
+{
+  "topicFilter": "edge/vehicles/#",
+  "qos": 0,
+  "messages": [
+    {
+      "format": "json",
+      "topic": "edge/vehicles/detections",
+      "timestamp": 1757183776835,
+      "payload": {
+        "timestamp": "2025-09-06T18:36:16.677535Z",
+        "source": "/greengrass/v2/packages/artifacts/com.example.VehicleDetector/1.0.0/road_video.mp4",
+        "inference_latency_ms": 315,
+        "detection_count": 10,
+        "detections": [
+          {
+            "class": "car",
+            "confidence": 0.875,
+            "bbox": [
+              724,
+              440,
+              951,
+              602
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.865,
+            "bbox": [
+              935,
+              257,
+              1098,
+              383
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.862,
+            "bbox": [
+              1192,
+              227,
+              1279,
+              345
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.857,
+            "bbox": [
+              0,
+              269,
+              141,
+              388
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.846,
+            "bbox": [
+              605,
+              181,
+              754,
+              291
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.846,
+            "bbox": [
+              410,
+              589,
+              634,
+              709
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.8,
+            "bbox": [
+              748,
+              160,
+              890,
+              258
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.768,
+            "bbox": [
+              565,
+              360,
+              750,
+              510
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.736,
+            "bbox": [
+              938,
+              559,
+              1212,
+              717
+            ]
+          },
+          {
+            "class": "truck",
+            "confidence": 0.513,
+            "bbox": [
+              166,
+              179,
+              561,
+              630
+            ]
+          }
+        ]
+      },
+      "qos": 0
+    },
+    {
+      "format": "json",
+      "topic": "edge/vehicles/detections",
+      "timestamp": 1757183776513,
+      "payload": {
+        "timestamp": "2025-09-06T18:36:16.358448Z",
+        "source": "/greengrass/v2/packages/artifacts/com.example.VehicleDetector/1.0.0/road_video.mp4",
+        "inference_latency_ms": 1052,
+        "detection_count": 10,
+        "detections": [
+          {
+            "class": "car",
+            "confidence": 0.874,
+            "bbox": [
+              724,
+              440,
+              951,
+              602
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.865,
+            "bbox": [
+              935,
+              257,
+              1098,
+              383
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.861,
+            "bbox": [
+              1192,
+              227,
+              1279,
+              345
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.857,
+            "bbox": [
+              0,
+              269,
+              141,
+              388
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.846,
+            "bbox": [
+              410,
+              589,
+              634,
+              709
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.846,
+            "bbox": [
+              605,
+              181,
+              754,
+              291
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.8,
+            "bbox": [
+              748,
+              160,
+              890,
+              258
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.768,
+            "bbox": [
+              565,
+              360,
+              750,
+              510
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.733,
+            "bbox": [
+              938,
+              559,
+              1213,
+              717
+            ]
+          },
+          {
+            "class": "truck",
+            "confidence": 0.515,
+            "bbox": [
+              166,
+              179,
+              561,
+              630
+            ]
+          }
+        ]
+      },
+      "qos": 0
+    },
+    {
+      "format": "json",
+      "topic": "edge/vehicles/detections",
+      "timestamp": 1757183775459,
+      "payload": {
+        "timestamp": "2025-09-06T18:36:15.300695Z",
+        "source": "/greengrass/v2/packages/artifacts/com.example.VehicleDetector/1.0.0/road_video.mp4",
+        "inference_latency_ms": 436,
+        "detection_count": 10,
+        "detections": [
+          {
+            "class": "car",
+            "confidence": 0.874,
+            "bbox": [
+              724,
+              440,
+              951,
+              602
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.865,
+            "bbox": [
+              935,
+              257,
+              1098,
+              383
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.861,
+            "bbox": [
+              1192,
+              227,
+              1279,
+              345
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.857,
+            "bbox": [
+              0,
+              269,
+              141,
+              388
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.846,
+            "bbox": [
+              410,
+              589,
+              634,
+              709
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.846,
+            "bbox": [
+              605,
+              181,
+              754,
+              291
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.8,
+            "bbox": [
+              748,
+              160,
+              890,
+              258
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.768,
+            "bbox": [
+              565,
+              360,
+              750,
+              510
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.731,
+            "bbox": [
+              938,
+              559,
+              1213,
+              717
+            ]
+          },
+          {
+            "class": "truck",
+            "confidence": 0.52,
+            "bbox": [
+              166,
+              179,
+              561,
+              630
+            ]
+          }
+        ]
+      },
+      "qos": 0
+    },
+    {
+      "format": "json",
+      "topic": "edge/vehicles/detections",
+      "timestamp": 1757183775020,
+      "payload": {
+        "timestamp": "2025-09-06T18:36:14.859152Z",
+        "source": "/greengrass/v2/packages/artifacts/com.example.VehicleDetector/1.0.0/road_video.mp4",
+        "inference_latency_ms": 387,
+        "detection_count": 10,
+        "detections": [
+          {
+            "class": "car",
+            "confidence": 0.874,
+            "bbox": [
+              724,
+              440,
+              951,
+              602
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.865,
+            "bbox": [
+              935,
+              257,
+              1098,
+              383
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.861,
+            "bbox": [
+              1192,
+              227,
+              1279,
+              345
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.857,
+            "bbox": [
+              0,
+              269,
+              141,
+              388
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.846,
+            "bbox": [
+              410,
+              589,
+              634,
+              709
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.846,
+            "bbox": [
+              605,
+              181,
+              754,
+              291
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.8,
+            "bbox": [
+              748,
+              160,
+              890,
+              258
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.768,
+            "bbox": [
+              565,
+              360,
+              750,
+              510
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.733,
+            "bbox": [
+              938,
+              559,
+              1213,
+              717
+            ]
+          },
+          {
+            "class": "truck",
+            "confidence": 0.515,
+            "bbox": [
+              166,
+              179,
+              561,
+              630
+            ]
+          }
+        ]
+      },
+      "qos": 0
+    },
+    {
+      "format": "json",
+      "topic": "edge/vehicles/detections",
+      "timestamp": 1757183774621,
+      "payload": {
+        "timestamp": "2025-09-06T18:36:14.466744Z",
+        "source": "/greengrass/v2/packages/artifacts/com.example.VehicleDetector/1.0.0/road_video.mp4",
+        "inference_latency_ms": 276,
+        "detection_count": 10,
+        "detections": [
+          {
+            "class": "car",
+            "confidence": 0.874,
+            "bbox": [
+              724,
+              440,
+              951,
+              602
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.865,
+            "bbox": [
+              935,
+              257,
+              1098,
+              383
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.861,
+            "bbox": [
+              1192,
+              227,
+              1279,
+              345
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.857,
+            "bbox": [
+              0,
+              269,
+              141,
+              388
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.846,
+            "bbox": [
+              410,
+              589,
+              634,
+              709
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.846,
+            "bbox": [
+              605,
+              181,
+              754,
+              291
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.799,
+            "bbox": [
+              748,
+              160,
+              890,
+              258
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.768,
+            "bbox": [
+              565,
+              360,
+              750,
+              510
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.732,
+            "bbox": [
+              938,
+              559,
+              1213,
+              717
+            ]
+          },
+          {
+            "class": "truck",
+            "confidence": 0.515,
+            "bbox": [
+              166,
+              179,
+              561,
+              630
+            ]
+          }
+        ]
+      },
+      "qos": 0
+    },
+    {
+      "format": "json",
+      "topic": "edge/vehicles/detections",
+      "timestamp": 1757183774341,
+      "payload": {
+        "timestamp": "2025-09-06T18:36:14.185857Z",
+        "source": "/greengrass/v2/packages/artifacts/com.example.VehicleDetector/1.0.0/road_video.mp4",
+        "inference_latency_ms": 164,
+        "detection_count": 10,
+        "detections": [
+          {
+            "class": "car",
+            "confidence": 0.874,
+            "bbox": [
+              724,
+              440,
+              951,
+              602
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.865,
+            "bbox": [
+              935,
+              257,
+              1098,
+              383
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.861,
+            "bbox": [
+              1192,
+              227,
+              1279,
+              345
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.857,
+            "bbox": [
+              0,
+              269,
+              141,
+              388
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.847,
+            "bbox": [
+              410,
+              589,
+              634,
+              709
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.846,
+            "bbox": [
+              605,
+              181,
+              754,
+              291
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.8,
+            "bbox": [
+              748,
+              160,
+              890,
+              258
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.768,
+            "bbox": [
+              565,
+              360,
+              750,
+              510
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.732,
+            "bbox": [
+              938,
+              559,
+              1212,
+              717
+            ]
+          },
+          {
+            "class": "truck",
+            "confidence": 0.511,
+            "bbox": [
+              166,
+              179,
+              561,
+              629
+            ]
+          }
+        ]
+      },
+      "qos": 0
+    },
+    {
+      "format": "json",
+      "topic": "edge/vehicles/detections",
+      "timestamp": 1757183774173,
+      "payload": {
+        "timestamp": "2025-09-06T18:36:14.017093Z",
+        "source": "/greengrass/v2/packages/artifacts/com.example.VehicleDetector/1.0.0/road_video.mp4",
+        "inference_latency_ms": 397,
+        "detection_count": 10,
+        "detections": [
+          {
+            "class": "car",
+            "confidence": 0.875,
+            "bbox": [
+              724,
+              440,
+              951,
+              602
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.865,
+            "bbox": [
+              935,
+              257,
+              1098,
+              383
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.861,
+            "bbox": [
+              1192,
+              227,
+              1279,
+              345
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.857,
+            "bbox": [
+              0,
+              269,
+              141,
+              388
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.847,
+            "bbox": [
+              410,
+              589,
+              634,
+              709
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.846,
+            "bbox": [
+              605,
+              181,
+              754,
+              291
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.8,
+            "bbox": [
+              748,
+              160,
+              890,
+              258
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.768,
+            "bbox": [
+              565,
+              360,
+              750,
+              510
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.731,
+            "bbox": [
+              938,
+              559,
+              1212,
+              717
+            ]
+          },
+          {
+            "class": "truck",
+            "confidence": 0.515,
+            "bbox": [
+              166,
+              179,
+              561,
+              630
+            ]
+          }
+        ]
+      },
+      "qos": 0
+    },
+    {
+      "format": "json",
+      "topic": "edge/vehicles/detections",
+      "timestamp": 1757183773774,
+      "payload": {
+        "timestamp": "2025-09-06T18:36:13.615331Z",
+        "source": "/greengrass/v2/packages/artifacts/com.example.VehicleDetector/1.0.0/road_video.mp4",
+        "inference_latency_ms": 158,
+        "detection_count": 11,
+        "detections": [
+          {
+            "class": "car",
+            "confidence": 0.874,
+            "bbox": [
+              724,
+              440,
+              951,
+              602
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.865,
+            "bbox": [
+              935,
+              257,
+              1098,
+              383
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.861,
+            "bbox": [
+              1192,
+              227,
+              1279,
+              345
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.857,
+            "bbox": [
+              0,
+              269,
+              141,
+              388
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.847,
+            "bbox": [
+              410,
+              589,
+              634,
+              709
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.846,
+            "bbox": [
+              605,
+              181,
+              754,
+              291
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.8,
+            "bbox": [
+              748,
+              160,
+              890,
+              258
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.768,
+            "bbox": [
+              565,
+              360,
+              750,
+              510
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.73,
+            "bbox": [
+              938,
+              559,
+              1212,
+              717
+            ]
+          },
+          {
+            "class": "truck",
+            "confidence": 0.511,
+            "bbox": [
+              166,
+              179,
+              561,
+              629
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.5,
+            "bbox": [
+              0,
+              159,
+              64,
+              247
+            ]
+          }
+        ]
+      },
+      "qos": 0
+    },
+    {
+      "format": "json",
+      "topic": "edge/vehicles/detections",
+      "timestamp": 1757183773609,
+      "payload": {
+        "timestamp": "2025-09-06T18:36:13.451972Z",
+        "source": "/greengrass/v2/packages/artifacts/com.example.VehicleDetector/1.0.0/road_video.mp4",
+        "inference_latency_ms": 158,
+        "detection_count": 10,
+        "detections": [
+          {
+            "class": "car",
+            "confidence": 0.875,
+            "bbox": [
+              724,
+              440,
+              951,
+              602
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.865,
+            "bbox": [
+              935,
+              257,
+              1098,
+              383
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.861,
+            "bbox": [
+              1192,
+              227,
+              1279,
+              345
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.857,
+            "bbox": [
+              0,
+              269,
+              141,
+              388
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.847,
+            "bbox": [
+              410,
+              589,
+              634,
+              709
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.846,
+            "bbox": [
+              605,
+              181,
+              754,
+              291
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.8,
+            "bbox": [
+              748,
+              160,
+              890,
+              258
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.768,
+            "bbox": [
+              564,
+              361,
+              750,
+              509
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.733,
+            "bbox": [
+              938,
+              559,
+              1212,
+              717
+            ]
+          },
+          {
+            "class": "truck",
+            "confidence": 0.511,
+            "bbox": [
+              166,
+              179,
+              561,
+              631
+            ]
+          }
+        ]
+      },
+      "qos": 0
+    },
+    {
+      "format": "json",
+      "topic": "edge/vehicles/detections",
+      "timestamp": 1757183773439,
+      "payload": {
+        "timestamp": "2025-09-06T18:36:13.283553Z",
+        "source": "/greengrass/v2/packages/artifacts/com.example.VehicleDetector/1.0.0/road_video.mp4",
+        "inference_latency_ms": 173,
+        "detection_count": 10,
+        "detections": [
+          {
+            "class": "car",
+            "confidence": 0.875,
+            "bbox": [
+              724,
+              440,
+              951,
+              602
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.865,
+            "bbox": [
+              935,
+              257,
+              1098,
+              383
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.861,
+            "bbox": [
+              1192,
+              227,
+              1279,
+              345
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.857,
+            "bbox": [
+              0,
+              269,
+              141,
+              388
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.847,
+            "bbox": [
+              410,
+              589,
+              634,
+              709
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.846,
+            "bbox": [
+              605,
+              181,
+              754,
+              291
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.8,
+            "bbox": [
+              748,
+              160,
+              890,
+              258
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.768,
+            "bbox": [
+              564,
+              361,
+              750,
+              509
+            ]
+          },
+          {
+            "class": "car",
+            "confidence": 0.722,
+            "bbox": [
+              938,
+              559,
+              1216,
+              717
+            ]
+          },
+          {
+            "class": "truck",
+            "confidence": 0.508,
+            "bbox": [
+              166,
+              179,
+              561,
+              631
+            ]
+          }
+        ]
+      },
+      "qos": 0
+    }
+  ]
+}
